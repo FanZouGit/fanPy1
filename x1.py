@@ -3,7 +3,7 @@ import xml.dom
 import xml.sax
 import xml.parsers
 
-tree = ET.parse('ccountry.xml')
+tree = ET.parse('country.xml')
 root = tree.getroot()
 
 for child in root:
