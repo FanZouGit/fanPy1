@@ -9,4 +9,5 @@ RUN pip install quandl
 RUN pip install tensorflow
 RUN pip install bs4
 RUN pip install sklearn
+RUN pip install flask
 CMD ["sh"]
