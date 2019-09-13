@@ -1,0 +1,12 @@
+FROM python
+COPY ./*.py ./
+COPY ./*.xml ./
+RUN pip install numpy
+RUN pip install matplotlib
+RUN pip install pandas
+RUN pip install pandas-datareader
+RUN pip install quandl
+RUN pip install tensorflow
+RUN pip install bs4
+RUN pip install sklearn
+CMD ["sh"]
